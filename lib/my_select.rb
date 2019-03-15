@@ -4,8 +4,11 @@ def my_select(collection)
   i = 0
   return_array = Array.new
   while i < collection.length do
-    return_array << yield(collection[i])
-    i = i + 1
+    if yield(collection[i]
+      return_array << collection[i]
+      i = i + 1
+    else 
+      i = i + 1
   end
   return return_array
 end
