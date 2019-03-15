@@ -7,7 +7,7 @@ def my_select(collection)
     if yield(collection[i]
       return_array << collection[i]
       i = i + 1
-    else 
+    else
       i = i + 1
   end
   return return_array
