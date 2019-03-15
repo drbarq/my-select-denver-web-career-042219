@@ -10,7 +10,7 @@ def my_select(collection)
     else
       i = i + 1
   end
-  end 
+  end
   return return_array
 end
 
