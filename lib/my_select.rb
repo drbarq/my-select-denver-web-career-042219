@@ -1,15 +1,14 @@
 
 
 def my_select(collection)
-  i = 0 
+  i = 0
   return_array = Array.new
-  while i < collection.length do 
+  while i < collection.length do
     return_array << yield(collection[i])
     i = i + 1
-  end 
-end 
-    
-
-  
- # your code here!
+  end
 end
+
+
+
+ # your code here!
