@@ -7,7 +7,7 @@ def my_select(collection)
     return_array << yield(collection[i])
     i = i + 1
   end
-  return_array
+  return return_array
 end
 
 
